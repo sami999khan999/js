@@ -19,6 +19,7 @@
  * 11_Composition: Mixing behaviors vs inheriting them.
  * 12_Error_Handling: Custom error architectures.
  * 13_OOP_with_Modules: Organizing large applications.
+ * 14_Decorators: Modern syntax and structural patterns.
  * 
  * Instructions:
  * - Navigate through the folders in order to build your knowledge.
@@ -29,3 +30,9 @@
  */
 
  console.log("JavaScript OOP Course Loaded. Ready to explore?");
+
+ function fn(...args){
+  console.log(args)
+ }
+
+ fn(1,2,3,4,5)
